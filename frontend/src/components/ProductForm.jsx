@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { useForm } from 'react-hook-form'
 import { createProduct, getProduct, updateProduct } from '../api/products'
 import { useNavigate, useParams } from 'react-router-dom'
-import { toast } from 'react-hot-toast' // <--- Importamos las notificaciones
+import { toast } from 'react-hot-toast' 
 
 export function ProductForm() {
     const { register, handleSubmit, formState: { errors }, setValue } = useForm()

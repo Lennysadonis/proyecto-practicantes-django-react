@@ -2,7 +2,7 @@ import { Routes, Route, Navigate } from 'react-router-dom'
 import { ProductList } from './components/ProductList'
 import { ProductForm } from './components/ProductForm'
 import { Header } from './components/Header'
-import { Toaster } from 'react-hot-toast' // 1. Importar
+import { Toaster } from 'react-hot-toast' 
 
 function App() {
   return (
