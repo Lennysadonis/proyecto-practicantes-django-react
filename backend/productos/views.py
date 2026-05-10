@@ -1,5 +1,5 @@
 from rest_framework import viewsets
-from .serializers import ProductoSerializer  # <--- Asegúrate que tenga la 's'
+from .serializers import ProductoSerializer 
 from .models import Producto
 
 class ProductoView(viewsets.ModelViewSet):
